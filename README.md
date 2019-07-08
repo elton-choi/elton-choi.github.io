@@ -1,1 +1,0 @@
-# Elton Choi's Blog
