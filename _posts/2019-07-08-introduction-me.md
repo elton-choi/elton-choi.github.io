@@ -1,13 +1,8 @@
 ---
-layout: single
-title: 2019-07-08 블로그 시작 기념
+title: 로봇팔 제어 소개
 categories:
-  - Post Formats
+  - Control
 ---
+모두의 연구소에서 로봇팔 제어 겉핥기란 주제로 발표했던 자료다.
 
-네이버에 블로그도 조금 하다가 그만 두었고 구글 블로그는 만들었더니 전 세계 지도에서 내 글을 조회한 사람들의 분포를 보는 게 신기해서
-처음에 반짝했다가 수식이랑 코드 넣는 방법을 몰라서, 블로그 디자인도 마음에 들지 않아서, 흐지부지 되었던 것 같다.
-
-일단은 거창하게 생각하지 말고 글을 정기적으로 쓰기 위한 훈련소하고 생각하자.
-
-내가 좋아하는 것들은 로보틱스, 태권도, 크로스핏 등이다. 태권도는 안 한지 좀 되서 로보틱스 관련 글이나 읽은 책에 대한 감상 위주로 적게 될 것 같다.
+<iframe src="https://www.slideshare.net/babchol/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
