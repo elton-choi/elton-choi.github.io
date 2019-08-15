@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 2019-07-08 블로그 시작 기념
 categories:
   - Post Formats
