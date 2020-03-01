@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "Korean"
-title                    : "Control Everything"
+title                    : "Hancheol Choi"
 title_separator          : "|"
 name                     : "Hancheol Choi"
 description              : "Robot Control Engineer"
