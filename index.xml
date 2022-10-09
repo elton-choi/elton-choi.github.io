@@ -23,9 +23,9 @@
       <pubDate>Mon, 15 Aug 2022 21:48:13 +0900</pubDate>
       
       <guid>https://elton-choi.github.io/posts/2022-08-15-mujoco-tutorial/</guid>
-      <description>Mujoco  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C++ Library Install Download archive files and extract where you want.
-Just add library path on your environment.
-ex) edit ~/.bashrc on linux. if folder you extract is mujoco</description>
+      <description>Main Features  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C++ Library Install 1export LD_LIBRARY_PATH=&amp;#34;~/mujoco/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}&amp;#34; or you can put library file together with your execution file.
+Download archive files and extract where you want.
+Just add library path on your environment.</description>
     </item>
     
     <item>

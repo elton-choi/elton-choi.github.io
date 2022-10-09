@@ -16,9 +16,9 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="Mujoco Tutorial" />
-<meta property="og:description" content="Mujoco  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C&#43;&#43; Library Install Download archive files and extract where you want.
-Just add library path on your environment.
-ex) edit ~/.bashrc on linux. if folder you extract is mujoco" />
+<meta property="og:description" content="Main Features  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C&#43;&#43; Library Install 1export LD_LIBRARY_PATH=&#34;~/mujoco/lib${LD_LIBRARY_PATH:&#43;:${LD_LIBRARY_PATH}}&#34; or you can put library file together with your execution file.
+Download archive files and extract where you want.
+Just add library path on your environment." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://elton-choi.github.io/posts/2022-08-15-mujoco-tutorial/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-08-15T21:48:13+09:00" />
@@ -27,9 +27,9 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco" />
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mujoco Tutorial"/>
-<meta name="twitter:description" content="Mujoco  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C&#43;&#43; Library Install Download archive files and extract where you want.
-Just add library path on your environment.
-ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
+<meta name="twitter:description" content="Main Features  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C&#43;&#43; Library Install 1export LD_LIBRARY_PATH=&#34;~/mujoco/lib${LD_LIBRARY_PATH:&#43;:${LD_LIBRARY_PATH}}&#34; or you can put library file together with your execution file.
+Download archive files and extract where you want.
+Just add library path on your environment."/>
 
   
   
@@ -155,7 +155,7 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2felton-choi.github.io%2fposts%2f2022-08-15-mujoco-tutorial%2f&name=Mujoco%20Tutorial&description=Mujoco%20%20Multi-Joint%20dynamics%20with%20Contact%20Freely%20available%20by%20DeepMind%20in%20October%202021%20Key-Features%20%20Generalized%20coordinates%20combined%20with%20modern%20contact%20dynamics%20Soft%2c%20convex%20and%20analytically-invertable%20contact%20dynamics%20Tendon%20geometry%20General%20actuation%20model%20Reconfigurable%20computation%20pipeline%20Interactive%20simulation%20and%20visualization%20%20%20%20C%2fC%2b%2b%20Library%20Install%20Download%20archive%20files%20and%20extract%20where%20you%20want.%0aJust%20add%20library%20path%20on%20your%20environment.%0aex%29%20edit%20~%2f.bashrc%20on%20linux.%20if%20folder%20you%20extract%20is%20mujoco" aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2felton-choi.github.io%2fposts%2f2022-08-15-mujoco-tutorial%2f&name=Mujoco%20Tutorial&description=Main%20Features%20%20Multi-Joint%20dynamics%20with%20Contact%20Freely%20available%20by%20DeepMind%20in%20October%202021%20Key-Features%20%20Generalized%20coordinates%20combined%20with%20modern%20contact%20dynamics%20Soft%2c%20convex%20and%20analytically-invertable%20contact%20dynamics%20Tendon%20geometry%20General%20actuation%20model%20Reconfigurable%20computation%20pipeline%20Interactive%20simulation%20and%20visualization%20%20%20%20C%2fC%2b%2b%20Library%20Install%201export%20LD_LIBRARY_PATH%3d%26%2334%3b~%2fmujoco%2flib%24%7bLD_LIBRARY_PATH%3a%2b%3a%24%7bLD_LIBRARY_PATH%7d%7d%26%2334%3b%20or%20you%20can%20put%20library%20file%20together%20with%20your%20execution%20file.%0aDownload%20archive%20files%20and%20extract%20where%20you%20want.%0aJust%20add%20library%20path%20on%20your%20environment." aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
@@ -178,6 +178,7 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
   <ul>
     <li><a href="#install-1">Install</a></li>
     <li><a href="#simple-example"><strong>Simple Example</strong></a></li>
+    <li><a href="#simple-tutorial-1">Simple Tutorial</a></li>
   </ul>
 </nav>
     </div>
@@ -230,7 +231,7 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
   
     
     <div class="content" itemprop="articleBody">
-      <h1 id="mujoco">Mujoco</h1>
+      <h1 id="main-features">Main Features</h1>
 <ul>
 <li><strong>M</strong>ulti-<strong>J</strong>oint dynamics with <strong>C</strong>ontact</li>
 <li>Freely available by DeepMind in October 2021</li>
@@ -247,6 +248,8 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
 </ul>
 <h1 id="cc-library">C/C++ Library</h1>
 <h2 id="install">Install</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span style="color:#8be9fd;font-style:italic">export</span> <span style="color:#8be9fd;font-style:italic">LD_LIBRARY_PATH</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;~/mujoco/lib</span><span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">LD_LIBRARY_PATH</span>:+:<span style="color:#f1fa8c">${</span><span style="color:#8be9fd;font-style:italic">LD_LIBRARY_PATH</span><span style="color:#f1fa8c">}}</span><span style="color:#f1fa8c">&#34;</span>
+</code></pre></div><p>or you can put library file together with your execution file.</p>
 <p>Download archive files and extract where you want.</p>
 <p>Just add library path on your environment.</p>
 <p>ex) edit ~/.bashrc on linux. if folder you extract is mujoco</p>
@@ -255,14 +258,18 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
 <p><strong>Test Execution</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span>./simulate ../model/humanoid/humanoid.xml
 </code></pre></div><h2 id="simple-tutorial"><strong>Simple Tutorial</strong></h2>
-<p><a href="https://www.youtube.com/watch?v=NScEj7JlebE&amp;list=PLc7bpbeTIk758Ad3fkSywdxHWpBh9PM0G">https://www.youtube.com/watch?v=NScEj7JlebE&amp;list=PLc7bpbeTIk758Ad3fkSywdxHWpBh9PM0G</a></p>
-<p><a href="https://github.com/BolunDai0216/PyMuJoCoBase">https://github.com/BolunDai0216/PyMuJoCoBase</a></p>
-<h1 id="installpython-bindings">Install(Python Bindings)</h1>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLc7bpbeTIk758Ad3fkSywdxHWpBh9PM0G" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h1 id="python-bindings">Python Bindings</h1>
 <p>Mujoco provides python bindings officially supported from 2.1.2.</p>
 <p>Before this, there are previous python bindings such as mujoco-py not officially supported.</p>
 <h2 id="install-1">Install</h2>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span>pip install mujoco
 </code></pre></div><h2 id="simple-example"><strong>Simple Example</strong></h2>
+<p><a href="https://github.com/BolunDai0216/PyMuJoCoBase">https://github.com/BolunDai0216/PyMuJoCoBase</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span>import mujoco
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>import glfw
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span>
@@ -304,13 +311,17 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39</span>    glfw.poll_events<span style="color:#ff79c6">()</span>
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40</span>
 <span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41</span>glfw.terminate<span style="color:#ff79c6">()</span>
-</code></pre></div><h1 id="reference">Reference</h1>
-<p><a href="https://pab47.github.io/mujoco.html">MuJoCo Bootcamp</a></p>
-<p><a href="https://mujoco.org/">MuJoCo</a></p>
-<p><a href="https://github.com/deepmind/mujoco">https://github.com/deepmind/mujoco</a></p>
-<p><a href="https://studywolf.wordpress.com/">studywolf</a></p>
-<p><a href="https://www.notion.so/Simple-Pendulum-fae87573250d435fbf0d7497874a14bb">Simple Pendulum</a></p>
-<p><a href="https://www.notion.so/Double-Pendulum-629e6f4b0e724eb6b564ec0402036f06">Double Pendulum</a></p>
+</code></pre></div><h2 id="simple-tutorial-1">Simple Tutorial</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLc7bpbeTIk75dgBVd07z6_uKN1KQkwFRK" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h1 id="reference">Reference</h1>
+<p>[1] <a href="https://pab47.github.io/mujoco.html">MuJoCo Bootcamp</a></p>
+<p>[2] <a href="https://mujoco.org/">MuJoCo</a></p>
+<p>[3] <a href="https://github.com/deepmind/mujoco">https://github.com/deepmind/mujoco</a></p>
+<p>[4] <a href="https://studywolf.wordpress.com/">studywolf</a></p>
 
     </div>
   </article>
@@ -367,6 +378,7 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
   <ul>
     <li><a href="#install-1">Install</a></li>
     <li><a href="#simple-example"><strong>Simple Example</strong></a></li>
+    <li><a href="#simple-tutorial-1">Simple Tutorial</a></li>
   </ul>
 </nav>
     </div>
@@ -416,7 +428,7 @@ ex) edit ~/.bashrc on linux. if folder you extract is mujoco"/>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2felton-choi.github.io%2fposts%2f2022-08-15-mujoco-tutorial%2f&name=Mujoco%20Tutorial&description=Mujoco%20%20Multi-Joint%20dynamics%20with%20Contact%20Freely%20available%20by%20DeepMind%20in%20October%202021%20Key-Features%20%20Generalized%20coordinates%20combined%20with%20modern%20contact%20dynamics%20Soft%2c%20convex%20and%20analytically-invertable%20contact%20dynamics%20Tendon%20geometry%20General%20actuation%20model%20Reconfigurable%20computation%20pipeline%20Interactive%20simulation%20and%20visualization%20%20%20%20C%2fC%2b%2b%20Library%20Install%20Download%20archive%20files%20and%20extract%20where%20you%20want.%0aJust%20add%20library%20path%20on%20your%20environment.%0aex%29%20edit%20~%2f.bashrc%20on%20linux.%20if%20folder%20you%20extract%20is%20mujoco" aria-label="Tumblr">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2felton-choi.github.io%2fposts%2f2022-08-15-mujoco-tutorial%2f&name=Mujoco%20Tutorial&description=Main%20Features%20%20Multi-Joint%20dynamics%20with%20Contact%20Freely%20available%20by%20DeepMind%20in%20October%202021%20Key-Features%20%20Generalized%20coordinates%20combined%20with%20modern%20contact%20dynamics%20Soft%2c%20convex%20and%20analytically-invertable%20contact%20dynamics%20Tendon%20geometry%20General%20actuation%20model%20Reconfigurable%20computation%20pipeline%20Interactive%20simulation%20and%20visualization%20%20%20%20C%2fC%2b%2b%20Library%20Install%201export%20LD_LIBRARY_PATH%3d%26%2334%3b~%2fmujoco%2flib%24%7bLD_LIBRARY_PATH%3a%2b%3a%24%7bLD_LIBRARY_PATH%7d%7d%26%2334%3b%20or%20you%20can%20put%20library%20file%20together%20with%20your%20execution%20file.%0aDownload%20archive%20files%20and%20extract%20where%20you%20want.%0aJust%20add%20library%20path%20on%20your%20environment." aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
