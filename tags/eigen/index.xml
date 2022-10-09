@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eigen on Choi&#39;s Blog</title>
+    <link>https://elton-choi.github.io/tags/eigen/</link>
+    <description>Recent content in eigen on Choi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>You</copyright>
+    <lastBuildDate>Thu, 27 Feb 2014 21:48:13 +0900</lastBuildDate><atom:link href="https://elton-choi.github.io/tags/eigen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamic allocation of Eigen in hard-real time environment</title>
+      <link>https://elton-choi.github.io/posts/2014-02-27-dynamic-allocation-eigen/</link>
+      <pubDate>Thu, 27 Feb 2014 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/posts/2014-02-27-dynamic-allocation-eigen/</guid>
+      <description>Eigen is a open-source, template-based, c++, matrix library. It has good balance between performance and ease-of-use. We can write matrix formulation intuitively as similar as in Matlab.
+Futhermore, Eigen has Geometry module which others don&amp;rsquo;t have. Especially, I like this feature since I can use quaternion, angle-axis, transformation matrix in robotics application.
+However, though above good features, We could get unexpected behavior if we don&amp;rsquo;t take care of using Eigen in hard real-time environment.</description>
+    </item>
+    
+  </channel>
+</rss>
