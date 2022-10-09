@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Choi&#39;s Blog</title>
+    <title>Tags on Choi&#39;s Blog about Robotics</title>
     <link>https://elton-choi.github.io/tags/</link>
-    <description>Recent content in Tags on Choi&#39;s Blog</description>
+    <description>Recent content in Tags on Choi&#39;s Blog about Robotics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>You</copyright>
-    <lastBuildDate>Thu, 27 Feb 2014 21:48:13 +0900</lastBuildDate><atom:link href="https://elton-choi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Hancheol Choi</copyright>
+    <lastBuildDate>Mon, 15 Aug 2022 21:48:13 +0900</lastBuildDate><atom:link href="https://elton-choi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>simulation</title>
+      <link>https://elton-choi.github.io/tags/simulation/</link>
+      <pubDate>Mon, 15 Aug 2022 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/tags/simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netflix</title>
+      <link>https://elton-choi.github.io/tags/netflix/</link>
+      <pubDate>Wed, 30 Dec 2020 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/tags/netflix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>amazon</title>
+      <link>https://elton-choi.github.io/tags/amazon/</link>
+      <pubDate>Sun, 01 Mar 2020 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/tags/amazon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>control</title>
+      <link>https://elton-choi.github.io/tags/control/</link>
+      <pubDate>Mon, 31 Dec 2018 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/tags/control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manipulator</title>
+      <link>https://elton-choi.github.io/tags/manipulator/</link>
+      <pubDate>Mon, 31 Dec 2018 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/tags/manipulator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robot arm</title>
+      <link>https://elton-choi.github.io/tags/robot-arm/</link>
+      <pubDate>Mon, 31 Dec 2018 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/tags/robot-arm/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>eigen</title>
       <link>https://elton-choi.github.io/tags/eigen/</link>

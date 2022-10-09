@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>control on Choi&#39;s Blog about Robotics</title>
+    <link>https://elton-choi.github.io/categories/control/</link>
+    <description>Recent content in control on Choi&#39;s Blog about Robotics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Hancheol Choi</copyright>
+    <lastBuildDate>Mon, 31 Dec 2018 21:48:13 +0900</lastBuildDate><atom:link href="https://elton-choi.github.io/categories/control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>로봇팔 제어 소개</title>
+      <link>https://elton-choi.github.io/posts/2018-12-31-introduction-to-robot-arm-control/</link>
+      <pubDate>Mon, 31 Dec 2018 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/posts/2018-12-31-introduction-to-robot-arm-control/</guid>
+      <description>2018년 모두의 연구소에서 주최한 MODUCON에서 로봇팔 제어 겉핥기란 주제로 발표했던 자료다.
+모두의 연구소에서 강남Dynamics 랩을 운영한지는 2016년 9월부터이다. 모두의 연구소는 원래 그 해 5월 정도에 강화학습 스터디에 참석하기 위해서 찾아갔었는데, 거기서 만난 분에게 떠밀려 로봇 제어 쪽 모임을 시작하게 되었고 랩짱까지 되었다. 그 분은 다시 강화학습 분야로 돌아갔지만 나는 지금까지 계속 이 모임을 유지하고 있다. (내가 왜 그랬을까..)
+요즘 딥러닝, 강화학습 등이 너무나도 핫하고 로보틱스 쪽까지 융합되는 모습을 보면서 가끔씩 그때 그냥 강화학습을 했으면 어땠을까 하는 생각이 들기도 하지만, 그랬다면 이렇게 깊이 있게 로보틱스를 공부할 수 있었을까 하는 의구심도 있고, 한 분야를 깊게 공부하면 딥러닝이나 강화학습 또한 잘 이해할 수 있을 것이란 생각도 든다.</description>
+    </item>
+    
+  </channel>
+</rss>

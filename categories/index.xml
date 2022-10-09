@@ -1,28 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Choi&#39;s Blog</title>
+    <title>Categories on Choi&#39;s Blog about Robotics</title>
     <link>https://elton-choi.github.io/categories/</link>
-    <description>Recent content in Categories on Choi&#39;s Blog</description>
+    <description>Recent content in Categories on Choi&#39;s Blog about Robotics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>You</copyright>
-    <lastBuildDate>Thu, 27 Feb 2014 21:48:13 +0900</lastBuildDate><atom:link href="https://elton-choi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Hancheol Choi</copyright>
+    <lastBuildDate>Mon, 15 Aug 2022 21:48:13 +0900</lastBuildDate><atom:link href="https://elton-choi.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>category</title>
-      <link>https://elton-choi.github.io/categories/category/</link>
-      <pubDate>Thu, 27 Feb 2014 21:48:13 +0900</pubDate>
+      <title>robotics</title>
+      <link>https://elton-choi.github.io/categories/robotics/</link>
+      <pubDate>Mon, 15 Aug 2022 21:48:13 +0900</pubDate>
       
-      <guid>https://elton-choi.github.io/categories/category/</guid>
+      <guid>https://elton-choi.github.io/categories/robotics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>subcategory</title>
-      <link>https://elton-choi.github.io/categories/subcategory/</link>
+      <title>book report</title>
+      <link>https://elton-choi.github.io/categories/book-report/</link>
+      <pubDate>Wed, 30 Dec 2020 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/categories/book-report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>control</title>
+      <link>https://elton-choi.github.io/categories/control/</link>
+      <pubDate>Mon, 31 Dec 2018 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/categories/control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>https://elton-choi.github.io/categories/c&#43;&#43;/</link>
       <pubDate>Thu, 27 Feb 2014 21:48:13 +0900</pubDate>
       
-      <guid>https://elton-choi.github.io/categories/subcategory/</guid>
+      <guid>https://elton-choi.github.io/categories/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://elton-choi.github.io/categories/programming/</link>
+      <pubDate>Thu, 27 Feb 2014 21:48:13 +0900</pubDate>
+      
+      <guid>https://elton-choi.github.io/categories/programming/</guid>
       <description></description>
     </item>
     
