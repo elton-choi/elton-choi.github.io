@@ -14,9 +14,9 @@
       <pubDate>Mon, 15 Aug 2022 21:48:13 +0900</pubDate>
       
       <guid>https://elton-choi.github.io/posts/2022-08-15-mujoco-tutorial/</guid>
-      <description>Main Features  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C++ Library Install 1export LD_LIBRARY_PATH=&amp;#34;~/mujoco/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}&amp;#34; or you can put library file together with your execution file.
-Download archive files and extract where you want.
-Just add library path on your environment.</description>
+      <description>Mujoco is a physics-engine which efficiently simulates multi-body dynamics with contacts. It became famous when it started to be used frequently in the reinforcement learning communities. Especially, OpenAI used this engine in their openai-gym.
+Now, Deepmind is managing the development of this library, and made it to be used for free.
+Main Features  Multi-Joint dynamics with Contact Freely available by DeepMind in October 2021 Key-Features  Generalized coordinates combined with modern contact dynamics Soft, convex and analytically-invertable contact dynamics Tendon geometry General actuation model Reconfigurable computation pipeline Interactive simulation and visualization    C/C++ Library Install 1export LD_LIBRARY_PATH=&amp;#34;~/mujoco/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}&amp;#34; or you can put library file together with your execution file.</description>
     </item>
     
   </channel>
